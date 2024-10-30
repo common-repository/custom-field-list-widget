@@ -1,0 +1,790 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field List Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-20 11:31+0100\n"
+"PO-Revision-Date: 2021-03-20 11:34+0100\n"
+"Last-Translator: Tim Berger <be.tim.info@web.de>\n"
+"Language-Team: Tim Berger <be.tim.info@web.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: custom_field_list_k2_widget.php\n"
+"X-Poedit-SearchPath-1: uninstall.php\n"
+"X-Poedit-SearchPath-2: widget_custom_field_list.php\n"
+"X-Poedit-SearchPath-3: widget_custom_field_list_individual_href.php\n"
+"X-Poedit-SearchPath-4: widget_custom_field_list_individual_href_advice.php\n"
+"X-Poedit-SearchPath-5: widget_custom_field_list_individual_href_save_data."
+"php\n"
+"X-Poedit-SearchPath-6: widget_custom_field_list_js.php\n"
+"X-Poedit-SearchPath-7: widget_custom_field_list_long_selectbox.php\n"
+
+#: custom_field_list_k2_widget.php:29 custom_field_list_k2_widget.php:30
+#: widget_custom_field_list.php:491 widget_custom_field_list.php:1322
+#: widget_custom_field_list.php:1889 widget_custom_field_list.php:1890
+#: widget_custom_field_list.php:1894 widget_custom_field_list.php:1895
+#: widget_custom_field_list.php:2513
+msgid "Custom Field List"
+msgstr "Liste der Benutzerdefinierten Felder"
+
+#: widget_custom_field_list.php:115 widget_custom_field_list.php:149
+#: widget_custom_field_list.php:175 widget_custom_field_list.php:190
+#: widget_custom_field_list.php:204 widget_custom_field_list.php:234
+msgid "Internal Plugin Error: value is no array"
+msgstr "Interner Pluginfehler: Wert ist kein Array"
+
+#: widget_custom_field_list.php:521 widget_custom_field_list.php:1807
+msgid "Select:"
+msgstr "W&auml;hle:"
+
+#: widget_custom_field_list.php:807 widget_custom_field_list.php:840
+#: widget_custom_field_list.php:1907 widget_custom_field_list.php:2429
+msgid "Hide"
+msgstr "Anzeigen"
+
+#: widget_custom_field_list.php:807 widget_custom_field_list.php:840
+#: widget_custom_field_list.php:1907 widget_custom_field_list.php:2429
+msgid "Show"
+msgstr "Verbergen"
+
+#: widget_custom_field_list.php:818
+#: widget_custom_field_list_individual_href.php:280
+#, php-format
+msgid ""
+"There are no values in connection to the custom field name \"%1$s\" in the "
+"data base."
+msgstr ""
+"Es gibt keine, mit dem Namen des Benutzerdefinierten Feldes \"%1$s\" in "
+"Verbindung stehenden, Werte in der Datenbank."
+
+#: widget_custom_field_list.php:822
+msgid "no value"
+msgstr "kein Wert"
+
+#: widget_custom_field_list.php:826
+#, php-format
+msgid ""
+"The actual custom field name \"%1$s\" and the custom field name \"%2$s\" for "
+"which the link references are saved are different. Please save the links for "
+"the values of the actual custom field name."
+msgstr ""
+"Der aktuelle Name des Benutzerdefinierten Feldes \"%1$s\" und der Name des "
+"Benutzerdefinierten Feldes \"%2$s\", f&uuml;r den die Linkreferenzen "
+"abgespeichert wurden, sind unterschiedlich. Bitte speichern Sie die Links "
+"f&uuml;r die Werte des aktuellen Namen des Benutzerdefinierten Feldes."
+
+#: widget_custom_field_list.php:1042
+msgid ""
+"There are no values which are related to the custom field names which are "
+"set on the widgets page."
+msgstr ""
+"Es gibt keine Werte in der Datenbank, die mit den auf der Widgetseite "
+"definierten Namen des/r Benutzerdefinierten Feldes/r in Verbindung stehenden."
+
+#: widget_custom_field_list.php:1047
+#: widget_custom_field_list_individual_href.php:283
+msgid "Please, define a custom field name!"
+msgstr "Bitte, definieren Sie den Namen eines Benutzerdefinierten Feldes!"
+
+#: widget_custom_field_list.php:1060
+msgid "part"
+msgstr "Teil"
+
+#: widget_custom_field_list.php:1107
+msgid "Unable to retrieve the data of the customfield list widget from the db."
+msgstr "Es konnten keine Daten des Widgets aus der Datenbank geladen werde."
+
+#: widget_custom_field_list.php:1329
+msgid "Header (optional)"
+msgstr "&Uuml;berschrift (optional)"
+
+#: widget_custom_field_list.php:1329
+msgid "Leave the field empty for no widget title"
+msgstr "Kein Titel: das Feld leer lassen"
+
+#: widget_custom_field_list.php:1333
+msgid "Custom Field Names"
+msgstr "Namen der Benutzerdefinierten Felder"
+
+#: widget_custom_field_list.php:1372 widget_custom_field_list.php:1525
+msgid "custom field names"
+msgstr "Namen der Benutzerdefinierten Felder"
+
+#: widget_custom_field_list.php:1375
+msgid "sort by"
+msgstr "sortieren nach"
+
+#: widget_custom_field_list.php:1378
+msgid "hide this"
+msgstr "nicht anzeigen"
+
+#: widget_custom_field_list.php:1463
+msgid ""
+"If you want to create a list with several hierarchy levels then fill the "
+"custom field name fields one by one."
+msgstr ""
+"Wenn Sie ein Liste mit mehreren Hierarchieebenen erstellen wollen, sollten "
+"Sie die Felder nach einander ausf&uuml;llen."
+
+#: widget_custom_field_list.php:1495
+msgid ""
+"You are using more than one custom field name. But these custom field names "
+"are not used in the same amount of posts or in the same amount per posts."
+"<br />It is likely that the appearance of the list in the side bar is not as "
+"intended.<br />The table gives an overview which and how often a custom "
+"field is used:"
+msgstr ""
+"Sie benutzen mehr als einen Namen eines Benutzerdefinierten Feldes. Aber die "
+"Namen wurden nicht in der gleichen Anzahl von Beitr&auml;gen bzw. der "
+"gleichen Anzahl pro Beitrag vergeben.<br />Es ist sehr wahrscheinlich, dass "
+"deshalb das Erscheinungsbild der Liste in der Seitenleiste nicht wie "
+"beabsichtigt ist.<br />Die Tabelle gibt einen &Uuml;berblick &uuml;ber die "
+"Verwendung der Namen:"
+
+#: widget_custom_field_list.php:1526
+msgid "post IDs"
+msgstr "Beitrag IDs"
+
+#: widget_custom_field_list.php:1567 widget_custom_field_list.php:1805
+msgid "group the values by the first character"
+msgstr "die Werte &uuml;ber deren 1. Zeichen gruppieren"
+
+#: widget_custom_field_list.php:1568
+#, php-format
+msgid ""
+"Groups the custom field value by their first character after retrieving from "
+"the database. This might be a useful option if you have many values and you "
+"do not want to use the option \"%1$s\" to keep the list in the sidebar "
+"short.)"
+msgstr ""
+"Gruppiert die Werte der Benutzerdefinierten Felder &uuml;ber deren erstes "
+"Zeichen, nachdem sie aus der Datenbank geladen wurden. Diese Option ist dann "
+"hilfreich, wenn Sie viele Werte haben, die Funktion \"%1$s\" nicht nutzen "
+"und trotzdem die Liste in der Seitenleiste kurz halten wollen."
+
+#: widget_custom_field_list.php:1568 widget_custom_field_list.php:1773
+msgid "display only a part of the list elements at once"
+msgstr "nur einen Teil der Listenelemente auf einmal anzeigen"
+
+#: widget_custom_field_list.php:1588
+msgid "Filter Options"
+msgstr "Filteroptionen"
+
+#: widget_custom_field_list.php:1590
+msgid "include only posts of these categories into the list"
+msgstr "nur Beitr&auml;ge aus diesen Kategorien einbeziehen"
+
+#: widget_custom_field_list.php:1602
+msgid "No categories found."
+msgstr "Keine Kategorien gefunden."
+
+#: widget_custom_field_list.php:1610
+msgid "Sorting Options"
+msgstr "Sortieroptionen"
+
+#: widget_custom_field_list.php:1622
+msgid "sort criterion"
+msgstr "Sortierkriterium"
+
+#: widget_custom_field_list.php:1623
+msgid "custom field values (alphabetically)"
+msgstr "Werte der Benutzerdefinierten Felder (alphabetisch)"
+
+#: widget_custom_field_list.php:1624
+msgid "post date"
+msgstr "Beitragsdatum"
+
+#: widget_custom_field_list.php:1625
+msgid ""
+"A core function of this plugin is to link custom field values to posts. By "
+"using this option the custom field values will be arranged by the date of "
+"the posts they are linked to."
+msgstr ""
+"Eine Grundfunktion dieses Plugins ist es die Werte von Benutzerdefinierten "
+"Feldern mit Beitr&auml;gen zu verkn&uuml;pfen. Mit dieser Einstellung werden "
+"die Werte der Benutzerdefinierten Felder nach dem Datum der mit ihnen "
+"verlinkten Beitr&auml;ge geordnet."
+
+#: widget_custom_field_list.php:1636
+msgid "sort sequence"
+msgstr "Sortierreihenfolge"
+
+#: widget_custom_field_list.php:1637
+msgid "ascending (ASC)"
+msgstr "aufsteigend (ASC)"
+
+#: widget_custom_field_list.php:1638
+msgid "descending (DESC)"
+msgstr "absteigend (DESC)"
+
+#: widget_custom_field_list.php:1640
+msgid "further sorting options"
+msgstr "weitere Sortieroptionen"
+
+#: widget_custom_field_list.php:1643
+msgid "database collation"
+msgstr "Datenbankkollation"
+
+#: widget_custom_field_list.php:1652
+msgid ""
+"This option will probably not work. Because it is not possible to set "
+"\"setlocale(LC_COLLATE, ... \" on this server."
+msgstr ""
+"Diese Option funtioniert wahrscheinlich nicht, weil es nicht m&ouml;glich "
+"ist \"setlocale(LC_COLLATE, ... \" zu verwenden."
+
+#: widget_custom_field_list.php:1659
+msgid ""
+"The servers OS is Windows (which is not able to sort UTF-8) what makes it "
+"probably necessary for the correct functioning of this option to:"
+msgstr ""
+"Das Serverbetriebssystem ist Windows (welches UTF-8 kodierte Zeichen nicht "
+"sortieren kann), weshalb es f&uuml;r das korrekte Funktionieren dieser "
+"Option wahrscheinlich notwendig ist:"
+
+#: widget_custom_field_list.php:1660
+msgid ""
+"1. enter your <a href=\"http://msdn.microsoft.com/en-gb/library/39cwe7zf.aspx"
+"\" target=\"_blank\">language</a> and <a href=\"http://msdn.microsoft.com/en-"
+"gb/library/cdax410z.aspx\" target=\"_blank\">country</a> name and eventually "
+"the <a href=\"http://en.wikipedia.org/wiki/Windows_code_pages\" target="
+"\"_blank\">code page number</a> (like german_germany or german_germany.1252 "
+"for German)"
+msgstr ""
+"1. die <a href=\"http://msdn.microsoft.com/en-gb/library/39cwe7zf.aspx\" "
+"target=\"_blank\">Sprache</a> und den <a href=\"http://msdn.microsoft.com/en-"
+"gb/library/cdax410z.aspx\" target=\"_blank\">Landesnamen</a> und eventuell "
+"die <a href=\"http://en.wikipedia.org/wiki/Windows_code_pages\" target="
+"\"_blank\">Code Page Nummer</a> (z.B. german_germany oder "
+"german_germany.1252) einzugeben"
+
+#: widget_custom_field_list.php:1661
+msgid ""
+"2. select the (same) code page in the form PHP can handle (e.g. Windows-1252 "
+"for German)"
+msgstr ""
+"2. die (gleiche) Code Page in der Form auszuw&auml;hlen, in der PHP damit "
+"umgehen kann ( z.B. Windows-1252)"
+
+#: widget_custom_field_list.php:1675
+msgid ""
+"This option will probably not work on this server because this plugin "
+"converts the encoding of the meta values to the encoding of the OS (Windows) "
+"with the function mb_convert_encoding but this function is not available."
+msgstr ""
+"Diese Option funktioniert wahrscheinlich auf diesem Server nicht, weil "
+"dieses Plugin das Encoding der Werte der Benutzerdefinierten Felder auf das "
+"des Serverbetriebssystems (Windows) &auml;ndern muss, wof&uuml;r es die "
+"Funktion mb_convert_encoding nutzt w&uuml;rde, die aber nicht verf&uuml;gbar "
+"ist."
+
+#: widget_custom_field_list.php:1691 widget_custom_field_list.php:1693
+msgid "sort the values by the last word"
+msgstr "die Werte nach deren letztem Wort sortieren"
+
+#: widget_custom_field_list.php:1699
+msgid "sort sub list elements alphabetically"
+msgstr "Unterpunkte von Listenelementen alphabetisch ordnen"
+
+#: widget_custom_field_list.php:1700
+msgid ""
+"Arrange the sub list elements (which are e.g. post titles) in alphabetical "
+"order (By default (box is unchecked) the post titles are arranged by date.)"
+msgstr ""
+"Ordne die Unterpunkte von Listenelementen (z.B. Titel der Beitr&auml;ge) "
+"alphabetisch (standardm&auml;&szlig;ig (die Box hat keinen Haken) werden "
+"diese Titel nach dem Datum geordnet)"
+
+#: widget_custom_field_list.php:1708
+msgid "List Types"
+msgstr "Listentypen"
+
+#: widget_custom_field_list.php:1709 widget_custom_field_list.php:1741
+#: widget_custom_field_list.php:1759
+msgid "standard layout"
+msgstr "Standardlayout"
+
+#: widget_custom_field_list.php:1710
+msgid ""
+"Only list elements of custom field names with more than one custom field "
+"value have sub elements. These sub elements becoming visible by clicking on "
+"the custom field name list elements or the + sign. The other list elements "
+"with one value are the hyper links to the posts and the values are in the "
+"link title."
+msgstr ""
+"Nur Listenlemente von Namen Benutzerdefinierter Felder mit mehr als einem "
+"Wert haben Unterpunkte. Diese Unterpunkte werden sichtbar, wenn man auf den "
+"Namen des Benutzerdefinierten Feldes oder das + Zeichen klickt. Die anderen "
+"Listenelemente mit nur einem Wert sind selbst die Links zu den Beitr&auml;"
+"gen (die Werte sind auch die Linktitel)."
+
+#: widget_custom_field_list.php:1713
+msgid "a list with manually linked values"
+msgstr "Liste mit manuell verlinkten Werten"
+
+#: widget_custom_field_list.php:1714
+msgid ""
+"A simple list of all unique custom field values of one custom field name. "
+"Each value can be linked individually."
+msgstr ""
+"Eine einfache Liste der einmaligen Werte eines Benutzerdefinierten Feldes. "
+"Jeder Wert kann individuell verlinkt werden."
+
+#: widget_custom_field_list.php:1716 widget_custom_field_list.php:1717
+#, php-format
+msgid "Set a Link for each custom field value of the custom field: %1$s"
+msgstr "Verlinken Sie jeden Wert des Benutzerdefinierten Feldes: %1$s"
+
+#: widget_custom_field_list.php:1716
+msgid "Set the links"
+msgstr "Links setzen"
+
+#: widget_custom_field_list.php:1733
+msgid "List Appearance"
+msgstr "Listenerscheinungsbild"
+
+#: widget_custom_field_list.php:1740 widget_custom_field_list.php:1805
+msgid "each element with sub elements"
+msgstr "jedes Listenelement mit Unterpunkten"
+
+#: widget_custom_field_list.php:1741
+#, php-format
+msgid ""
+"Display each custom field name as a list element with the custom field value "
+"as a sub element. All sub elements are always visible and they are the hyper "
+"links to the posts. (Only available in combination with list type \"%1$s\")"
+msgstr ""
+"Stellt jeden Name eines Benutzerdefinierten Feldes als Listenelement mit "
+"seinem Wert als Unterpunkt dar. Alle Unterpunkte sind jeder Zeit sichtbar "
+"und sie sind die Links zu den Beitr&auml;gen. (nur in Kombination mit dem "
+"Listentyp \"%1$s\")"
+
+#: widget_custom_field_list.php:1747 widget_custom_field_list.php:1751
+msgid "simple list"
+msgstr "einfache Liste"
+
+#: widget_custom_field_list.php:1748
+msgid "display the list elements in a simple bulleted lists"
+msgstr ""
+"zeige die Listenelemente in einer einfachen Liste mit Aufzählungszeichen"
+
+#: widget_custom_field_list.php:1758
+msgid "show the number of sub elements"
+msgstr "zeige die Anzahl der Unterpunkte"
+
+#: widget_custom_field_list.php:1759
+#, php-format
+msgid ""
+"Display the number of sub elements after each list element with at least one "
+"sub element. (Only available in combination with list type \"%1$s\")"
+msgstr ""
+"Zeigt nach jedem Listenelement, mit mindestens einem Unterelement, die "
+"Anzahl der Unterelemente an. (nur in Kombination mit dem Listentyp \"%1$s\")"
+
+#: widget_custom_field_list.php:1762
+msgid "partitioned list"
+msgstr "aufgeteilte Liste"
+
+#: widget_custom_field_list.php:1776
+msgid "elements per part of the list"
+msgstr "Elemente pro Listenteil"
+
+#: widget_custom_field_list.php:1779
+msgid "pagination type"
+msgstr "Numerierungstyp"
+
+#: widget_custom_field_list.php:1779
+msgid "use the"
+msgstr "Verwende den/die/das"
+
+#: widget_custom_field_list.php:1782
+msgid "numbers"
+msgstr "Nummern"
+
+#: widget_custom_field_list.php:1783
+msgid "first letter"
+msgstr "ersten Buchstaben"
+
+#: widget_custom_field_list.php:1784 widget_custom_field_list.php:1797
+msgid "first two letters"
+msgstr "ersten beiden Buchstaben"
+
+#: widget_custom_field_list.php:1785
+msgid "first three letters"
+msgstr "ersten drei Buchstaben"
+
+#: widget_custom_field_list.php:1786
+msgid "first word"
+msgstr "erste Wort"
+
+#: widget_custom_field_list.php:1787
+msgid "last word"
+msgstr "letzte Wort"
+
+#: widget_custom_field_list.php:1797
+#, php-format
+msgid ""
+"You can choose if the pagination of the list parts should be consecutive "
+"numbers or strings taken from the main list elements. If you choose a "
+"strings as pagination type then the list part names will consist of parts "
+"from the first and the last main list element of a list part (if they are "
+"different.) like e.g. [Am - Be] (with type \"%1$s\")."
+msgstr ""
+"Sie k&ouml;nnen w&auml;hlen, ob die Nummerierung der Listenteile eine "
+"durchgehende Nummerierung seien soll oder ob sie aus Teilen der Namen der "
+"Hauptlistenelemente bestehen soll. Wenn Sie die zweitgenannte Option w&auml;"
+"hlen, werden die Listenteilbezeichnungen aus einem Teil des jeweils ersten "
+"und letzten Hauptelementes (wenn sie unterschiedlich sind) zusammengesetzt z."
+"B. [Am - Be] (wenn der Typ \"%1$s\" gew&auml;hlt wurde)."
+
+#: widget_custom_field_list.php:1802 widget_custom_field_list.php:1805
+#: widget_custom_field_list.php:1832
+msgid "drop down menu"
+msgstr "Auswahlmen&uuml;"
+
+#: widget_custom_field_list.php:1803
+msgid "Show the list elements as a drop down menu."
+msgstr ""
+"Zeige die Listenelemente in einem Auswahlmen&uuml; (\"Drop Down\"-Men&uuml;)"
+
+#: widget_custom_field_list.php:1805
+#, php-format
+msgid ""
+"It might be expedient to use the option \"%1$s\" or \"%2$s\" in combination "
+"with \"%3$s\"."
+msgstr ""
+"Es ist u.U. sinnvoll \"%3$s\" in Kombination mit \"%1$s\" oder \"%2$s\" zu "
+"nutzen."
+
+#: widget_custom_field_list.php:1833
+msgid "Show the drop down menu in a full screen box:"
+msgstr "Das Auswahlmen&uuml; in einer Vollbild-Kasten anzeigen:"
+
+#: widget_custom_field_list.php:1834
+msgid ""
+"If you let the list appear as a drop down menu and you have long custom "
+"field values or long post titles then it is possible that parts of the list "
+"elements are not visible on the screen e.g. the list juts out the screen if "
+"it is in the right sidebar. In such cases you might consider using this "
+"feature.<br />It displays the drop down menu in a wide box in the middle of "
+"the screen when the focus is on the drop down menu element."
+msgstr ""
+"Wenn Sie die Liste als Auswahlmen&uuml; erscheinen lassen und die Werte der "
+"Benutzerdefinierten Felder oder Ihr Artikeltitel lang sind, kann es sein, "
+"dass Teile der Listenelemente nicht vollst&auml;ndig auf den Bildschirm "
+"passen z.B. wenn das Widget in der rechten Seitenleiste ist. In solchen "
+"F&auml;llen ist es sinnvoll diese Option zu w&auml;hlen.<br />Das "
+"Auswahlmenu wird damit in einer den ganzen Bildschirm ausf&uuml;llenden "
+"Kasten dargestellt, wenn der Fokus auf das Auswahlmen&uuml; f&auml;llt."
+
+#: widget_custom_field_list.php:1836
+msgid "Limit the length of the list elements:"
+msgstr "L&auml;nge der Listenelemente beschr&auml;nken:"
+
+#: widget_custom_field_list.php:1837
+msgid ""
+"It is the maximal number of characters per list item. Zero means: do not "
+"limit the number of characters.<br />If you let the list appear as a drop "
+"down menu and you have long custom field values or long post titles then it "
+"is possible that parts of the list elements are not visible on the screen e."
+"g. the list juts out the screen if it is in the right sidebar. In such cases "
+"you might consider using this feature."
+msgstr ""
+"Dieser Werte ist die maximale Anzahl von Zeichen pro Listenelement. Wenn Sie "
+"diesen Wert auf null setzen, wird die Anzahl der Buchstaben nicht begrenzt."
+"<br />Wenn Sie die Liste als Auswahlmen&uuml; erscheinen lassen und die "
+"Werte der Benutzerdefinierten Felder oder Ihr Artikeltitel lang sind, kann "
+"es sein, dass Teile der Listenelement nicht vollst&auml;ndig auf den "
+"Bildschirm passen z.B. wenn das Widget in der rechten Seitenleiste ist. In "
+"solchen F&auml;llen ist es sinnvoll diese Option zu w&auml;hlen."
+
+#: widget_custom_field_list.php:1839
+msgid "Shorten the strings at the end or in the middle:"
+msgstr "Listenelemente am Ende oder in der Mitte k&uuml;rzen:"
+
+#: widget_custom_field_list.php:1839
+msgid "end"
+msgstr "Ende"
+
+#: widget_custom_field_list.php:1839
+msgid "middle"
+msgstr "Mitte"
+
+#: widget_custom_field_list.php:1840
+msgid ""
+"For instance: The long title is \"Star Wars - The Return of the Jedi\" and "
+"the max. number of chararcters is 20. \"end\" produces: \"Star Wars - "
+"The ... \" and \"middle\" produces: \"Star Wars ... of the Jedi\"."
+msgstr ""
+"Z.B.: Ein langer Titel ist \"Star Wars - Die R&uuml;ckkehr der Jedi Ritter\" "
+"und die max. Anzahl der Zeichen ist 20. \"Ende\" erzeugt: \"Star Wars - "
+"Die  ... \" und \"Mitte\" erzeugt: \"Star Wars ... edi Ritter\"."
+
+#: widget_custom_field_list.php:1842
+msgid "What should be the default value of the drop down menu?:"
+msgstr "Wie soll der Standardwert in dem Auswahlmen&uuml; sein?:"
+
+#: widget_custom_field_list.php:1854
+#, php-format
+msgid ""
+"settings for all widgets can be changed at the <a href=\"%1$s\">Custom Field "
+"List Widget settings page</a>"
+msgstr ""
+"Die Einstellungen f&uuml;r alle Widgets k&ouml;nnen auf der <a href=\"%1$s"
+"\">Einstellungsseite dieses Plugins</a> ver&auml;ndert werden"
+
+#: widget_custom_field_list.php:1868
+msgid "Displays a list of custom field values of a set key"
+msgstr ""
+"Zeigt eine Liste von Werten eines bestimmten (Namens eines) "
+"Benutzerdefinierten Feldes an"
+
+#: widget_custom_field_list.php:2079
+msgid "Unsaved changes"
+msgstr "Ungespeicherte &Auml;nderungen"
+
+#: widget_custom_field_list.php:2083
+msgid "Not available with these widget preferences."
+msgstr "Nicht verf&uuml;gbar mit diesen Widgeteinstellungen."
+
+#: widget_custom_field_list.php:2433
+msgid "slow"
+msgstr "langsam"
+
+#: widget_custom_field_list.php:2434
+msgid "normal"
+msgstr "normal"
+
+#: widget_custom_field_list.php:2435
+msgid "fast"
+msgstr "schnell"
+
+#: widget_custom_field_list.php:2454
+msgid "Changes saved"
+msgstr "Änderungen gespeichert"
+
+#: widget_custom_field_list.php:2461
+msgid "Custom Field List Widget - settings"
+msgstr "Custom Field List Widget - Einstellungen"
+
+#: widget_custom_field_list.php:2467
+msgid "symbols to deflate/inflate the sub list elements"
+msgstr "Symbole zum anzeigen/verbergen der (Sub)listenelemente"
+
+#: widget_custom_field_list.php:2478
+msgid ""
+"If a list element has sub elements then there will be a symbol which lets "
+"the users expand or collapse the list of the sub elements."
+msgstr ""
+"Wenn ein Listenlement Unterelemente hat hat dann werden diese Symbole "
+"angezeigt, mit denen man die Unterlistenelementen anzeigen oder verbergen "
+"kann."
+
+#: widget_custom_field_list.php:2483
+msgid "effect speed"
+msgstr "Effektgeschwindigkeit"
+
+#: widget_custom_field_list.php:2494
+msgid "How fast should the list elements show up or hide?"
+msgstr ""
+"Mit welcher Geschwindigkeit sollen den Listenelemente ein/ausgeblendet "
+"werden?"
+
+#: widget_custom_field_list.php:2503
+msgid "Save Changes"
+msgstr "&Auml;nderungen speichern"
+
+#: widget_custom_field_list.php:2513
+msgid "Custom Field List Widgets"
+msgstr "Custom Field List Widgets"
+
+#: widget_custom_field_list_individual_href.php:5
+#: widget_custom_field_list_individual_href_advice.php:5
+#: widget_custom_field_list_individual_href_save_data.php:5
+#: widget_custom_field_list_long_selectbox.php:5
+msgid "Security Check failed!"
+msgstr "Sicherheits&uuml;berpr&uuml;fung fehlgeschlagen!"
+
+#: widget_custom_field_list_individual_href.php:11
+#: widget_custom_field_list_individual_href_save_data.php:11
+msgid "The widget number was not transmitted."
+msgstr "Die Widgetnummer wurde nicht &uuml;bertragen."
+
+#: widget_custom_field_list_individual_href.php:14
+#: widget_custom_field_list_individual_href_advice.php:10
+#: widget_custom_field_list_individual_href_save_data.php:14
+msgid "You have to be logged in for this action."
+msgstr ""
+"Sie m&uuml;ssen eingeloggt sein, um diese Aktion ausf&uuml;hren zu k&ouml;"
+"nnen."
+
+#: widget_custom_field_list_individual_href.php:31
+msgid "Error: Could not process the formular data."
+msgstr "Fehler: Die Formulardaten konnten nicht verarbeitet werden."
+
+#: widget_custom_field_list_individual_href.php:58
+msgid ""
+"The formular contains to much data. It is not possible to send them to the "
+"database."
+msgstr ""
+"Das Formular enth&auml;lt zu viele Daten. Es ist nicht m&ouml;glich die "
+"Daten an die Datenbank zu senden."
+
+#: widget_custom_field_list_individual_href.php:77
+msgid "It is not possible to create an XMLHTTP instance."
+msgstr "Es ist nicht m&ouml;glich eine XMLHTTP Instanz zu erzeugen."
+
+#: widget_custom_field_list_individual_href.php:88
+msgid "Saving the data"
+msgstr "Speichere die Daten"
+
+#: widget_custom_field_list_individual_href.php:105
+msgid "Data saved!"
+msgstr "Daten gespeichert!"
+
+#: widget_custom_field_list_individual_href.php:108
+msgid "There was a problem during the request (Probably no data saved)."
+msgstr ""
+"Es gab ein Problem bei der Verarbeitung der Anfrage (Wahrscheinlich keine "
+"Daten gespeichert)."
+
+#: widget_custom_field_list_individual_href.php:108
+#: widget_custom_field_list_individual_href.php:111
+msgid "Error message:"
+msgstr "Fehlermeldung:"
+
+#: widget_custom_field_list_individual_href.php:111
+msgid "There was a problem with the request (Probably no data saved)."
+msgstr ""
+"Es gab ein Problem mit der Anfrage. (Wahrscheinlich keine Daten gespeichert)"
+
+#: widget_custom_field_list_individual_href.php:111
+msgid "http_request.status:"
+msgstr "http_request.status:"
+
+#: widget_custom_field_list_individual_href.php:130
+msgid "posts about:"
+msgstr "Beitr&auml:ge &uuml;ber:"
+
+#: widget_custom_field_list_individual_href.php:221
+msgid ""
+"You can specify links to published posts or pages of your blog or enter "
+"different adresses. If you choose a post or a page title then the custom "
+"field value will be linked to that post or page and not to a manually set "
+"link.<br />Please, write the URLs with a http:// (or https://, ftp://, etc.) "
+"in front of the address.<br />You can also enter link descriptions which "
+"appear while you hold the mouse cursor over the links."
+msgstr ""
+"Sie k&ouml;nnen Links zu ver&ouml;ffentlichten Beitr&auml;gen oder Seiten "
+"Ihres Blogs oder andere Adressen angeben. Wenn Sie einen Beitrags- oder "
+"Seitentitel ausw&auml;hlen, dann wird der Wert des Benutzerdefinierten "
+"Feldes mit diesem Beitrag oder dieser Seite verlinkt und nicht mit einem "
+"manuell eingegebenen Link.<br />Bitte schreiben Sie URLs mit einem http:// "
+"(oder https://, ftp://, etc.) vor der Adresse.<br /> Sie k&ouml;nnen auch "
+"Linkbeschreibungen eingeben, die dann erscheinen, wenn Sie den Mauspfeil "
+"&uuml;ber einem Linktext halten."
+
+#: widget_custom_field_list_individual_href.php:224
+#: widget_custom_field_list_individual_href.php:276
+msgid "Save"
+msgstr "Speichern"
+
+#: widget_custom_field_list_individual_href.php:241
+#, php-format
+msgid "Link \"%1$s\" to"
+msgstr "Verlinke \"%1$s\" mit"
+
+#: widget_custom_field_list_individual_href.php:245
+msgid "a post or page"
+msgstr "einem Beitrag oder Seite"
+
+#: widget_custom_field_list_individual_href.php:253
+msgid "page"
+msgstr "Seite"
+
+#: widget_custom_field_list_individual_href.php:263
+#, php-format
+msgid "or to a %1$sblog internal search%2$s for this value"
+msgstr "oder zu einer %1$sBlog internen Suchseite%2$s f&uuml;r diesen Wert"
+
+#: widget_custom_field_list_individual_href.php:265
+msgid "or to this URL:"
+msgstr "oder mit dieser URL:"
+
+#: widget_custom_field_list_individual_href.php:267
+msgid "link description (title)"
+msgstr "Linkbeschreibung (Titel)"
+
+#: widget_custom_field_list_individual_href_advice.php:20
+#, php-format
+msgid ""
+"Please, choose the list type \"%1$s\" to able to set the link reference for "
+"the custom field name values."
+msgstr ""
+"Bitte w&auml;hlen Sie den Listentyp \"%1$s\", um die Linkreferenzen setzen "
+"zu k&ouml;nnen."
+
+#: widget_custom_field_list_individual_href_advice.php:20
+msgid "a list of all values with manually set links"
+msgstr "Liste mit manuell verlinkten Werten"
+
+#: widget_custom_field_list_individual_href_advice.php:24
+msgid "Please, save the custom field names first."
+msgstr ""
+"Bitte speichern Sie den/die Namen des/r Benutzerdefinierten Feldes/r zuerst."
+
+#: widget_custom_field_list_long_selectbox.php:46
+msgid "Close"
+msgstr "Schlie&szlig;en"
+
+#~ msgid ""
+#~ "If you let the list appear as a drop down menu and you have long custom "
+#~ "field values or long post titles then it is possible that parts of the "
+#~ "list elements are not visible on the screen e.g. the list juts out the "
+#~ "screen if it is in the right sidebar. In such cases you might consider "
+#~ "using this feature.<br />It displays the drop down menu in a wide box in "
+#~ "the middle of the screen when the focus is on the drop down menu element."
+#~ "<br />Zero means: do not limit the number of characters."
+#~ msgstr ""
+#~ "Wenn Sie die Liste als Auswahlmen&uuml; erscheinen lassen und die Werte "
+#~ "der Benutzerdefinierten Felder oder Ihr Artikeltitel lang sind, kann es "
+#~ "sein, dass Teile der Listenelement nicht vollst&auml;ndig auf den "
+#~ "Bildschirm passen z.B. wenn das Widget in der rechten Seitenleiste ist. "
+#~ "In solchen F&auml;llen ist es sinnvoll diese Option zu w&auml;hlen.<br /"
+#~ ">Das Auswahlmenu wird damit in einer den ganzen Bildschirm ausf&uuml;"
+#~ "llenden Kasten dargestellt, wenn der Fokus auf das Auswahlmen&uuml; "
+#~ "f&auml;llt.<br />Ist der Wert Null wird die Anzahl der Zeichen nicht "
+#~ "eingeschr&auml;nkt."
+
+#~ msgid "alphabetically"
+#~ msgstr "alphabetisch"
+
+#~ msgid "Custom Field List Widget settings page"
+#~ msgstr "Einstellungsseite dieses Widgets"
+
+#~ msgid ""
+#~ "You need to save the widget settings before you can set the links for the "
+#~ "values of the new custom field name."
+#~ msgstr ""
+#~ "Sie m&uuml;ssen die Widgeteinstellungen speichern, bevor Sie die Links "
+#~ "f&uuml;r die Werte des neuen Spezialfeldes setzen k&ouml;nnen."
+
+#~ msgid "in"
+#~ msgstr "in"
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "This option will probably not work on this server OS (Windows)."
+#~ msgstr ""
+#~ "Diese Option funktioniert wahrscheinlich nicht mit diesem Server OS "
+#~ "(Windows)."
+
+#~ msgid "Guests"
+#~ msgstr "G&auml;ste"

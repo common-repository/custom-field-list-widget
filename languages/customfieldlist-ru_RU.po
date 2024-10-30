@@ -1,0 +1,589 @@
+# Petar Toushkov <pt.launchpad@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Field List Widget 1.2.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-26 17:05+0100\n"
+"PO-Revision-Date: 2011-11-26 17:06+0100\n"
+"Last-Translator: Tim Berger <timberge@cs.tu-berlin.de>\n"
+"Language-Team: Fat Cow <zhr@tut.by>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wp32en\\wp-content\\plugins\\custom-field-list-widget\n"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/custom_field_list_k2_widget.php:29
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/custom_field_list_k2_widget.php:30
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:478
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1261
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1794
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1795
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1799
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1800
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2417
+msgid "Custom Field List"
+msgstr "Список Custom Field"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:103
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:137
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:163
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:178
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:192
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:222
+msgid "Internal Plugin Error: value is no array"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:508
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1721
+msgid "Select:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:789
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:280
+#, php-format
+msgid "There are no values in connection to the custom field name \"%1$s\" in the data base."
+msgstr "Нет значений  в соединении пользовательских полей \"%1$s\"."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:793
+msgid "no value"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:797
+#, php-format
+msgid "The actual custom field name \"%1$s\" and the custom field name \"%2$s\" for which the link references are saved are different. Please save the links for the values of the actual custom field name."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:811
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1812
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2333
+msgid "Hide"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:811
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1812
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2333
+msgid "Show"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:989
+#, fuzzy
+msgid "There are no values which are related to the custom field names which are set on the widgets page."
+msgstr "Es gibt keine, mit dem Spezialfeldnamen %1$s in Verbindung stehenden, Werte in der Datenbank."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:994
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:283
+msgid "Please, define a custom field name!"
+msgstr "Пожалуйста, определите имя пользовательского поля!"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1007
+msgid "part"
+msgstr "часть"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1054
+msgid "Unable to retrieve the data of the customfield list widget from the db."
+msgstr "Неудача при извлечении информации из базы данных со списка с потребительскими полями."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1268
+msgid "Header (optional)"
+msgstr "Заголовок (по желанию)"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1268
+msgid "Leave the field empty for no widget title"
+msgstr "Оставьте пустым, чтобы оставить виджет без заглавия"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1272
+#, fuzzy
+msgid "Custom Field Names"
+msgstr "Имя пользовательского поля"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1311
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1463
+#, fuzzy
+msgid "custom field names"
+msgstr "Имя пользовательского поля"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1314
+msgid "sort by"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1317
+msgid "hide this"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1401
+msgid "If you want to create a list with several hierarchy levels then fill the custom field name fields one by one."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1433
+msgid "You are using more than one custom field name. But these custom field names are not used in the same amount of posts or in the same amount per posts.<br />It is most likely that the appearance of the list in the side bar is as intended.<br />The table gives an overview which and how often a custom field is used:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1464
+msgid "post IDs"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1505
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1719
+#, fuzzy
+msgid "group the values by the first character"
+msgstr "сортировать параметры по последнему слову"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1506
+#, php-format
+msgid "Groups the custom field value by their first character after retrieving from the database. This might be a useful option if you have many values and you do not want to use the option \"%1$s\" to keep the list in the sidebar short.)"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1506
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1687
+msgid "show only a part of the list elements at once"
+msgstr "показывать только часть списка элементов"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1526
+msgid "Sorting Options"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1537
+msgid "sort criterion"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1538
+msgid "custom field values (alphabetically)"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1539
+#, fuzzy
+msgid "post date"
+msgstr "пост или страница"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1540
+msgid "A core function of this plugin is to link custom field values to posts. By using this option the custom field values will be arranged by the date of the posts they are linked to."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1551
+msgid "sort sequence"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1552
+msgid "ascending (ASC)"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1553
+msgid "descending (DESC)"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1555
+msgid "further sorting options"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1558
+msgid "database collation"
+msgstr "сопоставление базы данных"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1566
+msgid "This option will probably not work. Because it is not possible to set \"setlocale(LC_COLLATE, ... \" on this server."
+msgstr "Этот вариант, вероятно, не работает, потому что не представляется возможным установить \"setlocale(LC_COLLATE, ... \"."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1573
+#, fuzzy
+msgid "The servers OS is Windows (which is not able to sort UTF-8) what makes it probably necessary for the correct functioning of this option to:"
+msgstr "ОС сервера базирована на Windows (в которой недоступна сортировка в UTF-8):"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1574
+msgid "1. enter your <a href=\"http://msdn.microsoft.com/en-gb/library/39cwe7zf.aspx\" target=\"_blank\">language</a> and <a href=\"http://msdn.microsoft.com/en-gb/library/cdax410z.aspx\" target=\"_blank\">country</a> name and eventually the <a href=\"http://en.wikipedia.org/wiki/Windows_code_pages\" target=\"_blank\">code page number</a> (like german_germany or german_germany.1252 for German)"
+msgstr "1.введите ваши <a href=\"http://msdn.microsoft.com/en-gb/library/39cwe7zf.aspx\" target=\"_blank\">язык</a> и <a href=\"http://msdn.microsoft.com/en-gb/library/cdax410z.aspx\" target=\"_blank\">country</a> имя ио <a href=\"http://en.wikipedia.org/wiki/Windows_code_pages\" target=\"_blank\">номер кода в таблице</a>"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1575
+msgid "2. select the (same) code page in the form PHP can handle (e.g. Windows-1252 for German)"
+msgstr "2. выберите формат кодировки (например, Windows-1251)"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1589
+msgid "This option will probably not work on this server because this plugin converts the encoding of the meta values to the encoding of the OS (Windows) with the function mb_convert_encoding but this function is not available."
+msgstr "Возможно, эта опция не работает на сервере, поскольку кодировка не поддерживается корректно данной ОС (Windows)."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1605
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1607
+msgid "sort the values by the last word"
+msgstr "сортировать параметры по последнему слову"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1613
+msgid "sort sub list elements alphabetically"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1614
+msgid "Arrange the sub list elements (which are e.g. post titles) in alphabetical order (By default (box is unchecked) the post titles are arranged by date.)"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1622
+msgid "List Types"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1623
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1655
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1673
+msgid "standard layout"
+msgstr "стандартное расположение"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1624
+msgid "Only list elements of custom field names with more than one custom field value have sub elements. These sub elements becoming visible by clicking on the custom field name list elements or the + sign. The other list elements with one value are the hyper links to the posts and the values are in the link title."
+msgstr "Само елементите от списъка с имена на потребителски полета с повече от една стойност на потребителското поле имат поделементи. Тези поделементи се появяват след щракване върху елемент от списъка с имена на потребителски полета или след щракване на знака \"+\" до тях. Другите елементи от списъка с по една стойност са хипервръзки към съответните постове, а стойностите им са в заглавната (title) част на връзката."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1627
+#, fuzzy
+msgid "a list with manually linked values"
+msgstr "лист всех значений  с ссылками, установленными вручную"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1628
+#, fuzzy
+msgid "A simple list of all unique custom field values of one custom field name. Each value can be linked individually."
+msgstr "Простой список всех значений пользовательских полей."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1630
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1631
+#, php-format
+msgid "Set a Link for each custom field value of the custom field: %1$s"
+msgstr "Установить ссылку для каждого элемента пользовательского поля: %1$s"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1630
+#, fuzzy
+msgid "Set the links"
+msgstr "Установить ссылки"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1647
+msgid "List Appearance"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1654
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1719
+msgid "each element with sub elements"
+msgstr "каждый элемент и субэлемент"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1655
+#, fuzzy, php-format
+msgid "Shows each custom field name as a list element with the custom field value as a sub element. All sub elements are every time visible and they are the hyper links to the posts. (Only available in combination with list type \"%1$s\")"
+msgstr "Показывать имя каждого пользовательского поля как элемент списка со значением пользовательского поля как субэлементом . Все субэлементы постоянно видимы."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1661
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1665
+msgid "simple list"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1662
+msgid "Show the list elements in a simple list with bullets."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1672
+#, fuzzy
+msgid "show the number of sub elements"
+msgstr "каждый элемент и субэлемент"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1673
+#, fuzzy, php-format
+msgid "Shows after each list element with at least one sub element the number of sub elements. (Only available in combination with list type \"%1$s\")"
+msgstr "Показывать имя каждого пользовательского поля как элемент списка со значением пользовательского поля как субэлементом . Все субэлементы постоянно видимы."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1676
+msgid "partitioned list"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1690
+msgid "elements per part of the list"
+msgstr "элементы части списка"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1693
+msgid "pagination type"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1693
+msgid "use the"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1696
+msgid "numbers"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1697
+msgid "first letter"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1698
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1711
+msgid "first two letters"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1699
+msgid "first three letters"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1700
+msgid "first word"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1701
+msgid "last word"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1711
+#, php-format
+msgid "You can choose if the pagination of the list parts should be consecutive numbers or strings taken from the main list elements. If you choose a strings as pagination type then the list part names will consist of parts from the first and the last main list element of a list part (if they are different.) like e.g. [Am - Be] (with type \"%1$s\")."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1716
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1719
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1746
+msgid "drop down menu"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1717
+#, fuzzy
+msgid "Show the list elements as a drop down menu."
+msgstr "показывать только часть списка элементов"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1719
+#, php-format
+msgid "It might be expedient to use the option \"%1$s\" or \"%2$s\" in combination with \"%3$s\"."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1747
+msgid "Show the drop down menu in a full screen box:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1748
+msgid "If you let the list appear as a drop down menu and you have long custom field values or long post titles then it is possible that parts of the list elements are not visible on the screen e.g. the list juts out the screen if it is in the right sidebar. In such cases you might consider using this feature.<br />It displays the drop down menu in a wide box in the middle of the screen when the focus is on the drop down menu element."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1750
+#, fuzzy
+msgid "Limit the length of the list elements:"
+msgstr "показывать только часть списка элементов"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1751
+msgid "It is the maximal number of characters per list item. Zero means: do not limit the number of characters.<br />If you let the list appear as a drop down menu and you have long custom field values or long post titles then it is possible that parts of the list elements are not visible on the screen e.g. the list juts out the screen if it is in the right sidebar. In such cases you might consider using this feature."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1753
+msgid "Shorten the strings at the end or in the middle:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1753
+msgid "end"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1753
+msgid "middle"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1754
+msgid "For instance: The long title is \"Star Wars - The Return of the Jedi\" and the max. number of chararcters is 20. \"end\" produces: \"Star Wars - The ... \" and \"middle\" produces: \"Star Wars ... of the Jedi\"."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1756
+msgid "What should be the default value of the drop down menu?:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1759
+#, php-format
+msgid "settings for all widgets can be changed at the <a href=\"%1$s\">Custom Field List Widget settings page</a>"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1773
+msgid "Displays a list of custom field values of a set key"
+msgstr "Показывать список параметров пользовательских полей и их значений"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1983
+msgid "Unsaved changes"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:1987
+msgid "Not available with these widget preferences."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2337
+msgid "slow"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2338
+msgid "normal"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2339
+msgid "fast"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2358
+msgid "Changes saved"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2365
+#, fuzzy
+msgid "Custom Field List Widget - settings"
+msgstr "Список Custom Field"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2371
+msgid "symbols to deflate/inflate the sub list elements"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2382
+msgid "If a list element has sub elements then there will be a symbol which lets the users expand or collapse the list of the sub elements."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2387
+msgid "effect speed"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2398
+#, fuzzy
+msgid "How fast should the list elements show up or hide?"
+msgstr "показывать только часть списка элементов"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2407
+msgid "Save Changes"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list.php:2417
+#, fuzzy
+msgid "Custom Field List Widgets"
+msgstr "Список Custom Field"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:5
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_advice.php:5
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_save_data.php:5
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_long_selectbox.php:5
+msgid "Security Check failed!"
+msgstr "Тест на безопасность завершился неудачей!"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:11
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_save_data.php:11
+msgid "The widget number was not transmitted."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:14
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_advice.php:10
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_save_data.php:14
+msgid "You have to be logged in for this action."
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:31
+msgid "Error: Could not process the formular data."
+msgstr "Ошибка: неудача в формулировке данных."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:58
+msgid "The formular contains to much data. It is not possible to send them to the database."
+msgstr "Формата съдържа твърде много информация. Информацията не може да бъде въведена в базата от данни."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:77
+msgid "It is not possible to create an XMLHTTP instance."
+msgstr "Невозможно создать XMLHTTP копию (обект)."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:88
+msgid "Saving the data"
+msgstr "Сохранение даных"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:105
+msgid "Data saved!"
+msgstr "Данные сохранены!"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:108
+#, fuzzy
+msgid "There was a problem during the request (Probably no data saved)."
+msgstr "При запросе возникла проблема. (Вероятно, нет сохраненных данных)"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:108
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:111
+msgid "Error message:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:111
+#, fuzzy
+msgid "There was a problem with the request (Probably no data saved)."
+msgstr "При запросе возникла проблема. (Вероятно, нет сохраненных данных)"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:111
+msgid "http_request.status:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:130
+#, fuzzy
+msgid "posts about:"
+msgstr "пост или страница"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:221
+#, fuzzy
+msgid "You can specify links to published posts or pages of your blog or enter different adresses. If you choose a post or a page title then the custom field value will be linked to that post or page and not to a manually set link.<br />Please, write the URLs with a http:// (or https://, ftp://, etc.) in front of the address.<br />You can also enter link descriptions which appear while you hold the mouse cursor over the links."
+msgstr "Можете да уточните връзки към постове или страници в блога, или да въведете различни адреси. Ако изберете пост или име на страница, стойността на потребителското поле ще бъде обвързана с тези пост или страница, а не с ръчно зададена връзка.<br />Моля, изписвайте URL адресите с предхождащи http:// или https://, ftp://, и пр.<br />Освен това можете да въвеждате описания, които ще се появяват при задържане на курсора на мишката над връзките."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:224
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:276
+msgid "Save"
+msgstr "Сохранить"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:241
+#, php-format
+msgid "Link \"%1$s\" to"
+msgstr "Ссылка \"%1$s\" к"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:245
+msgid "a post or page"
+msgstr "пост или страница"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:253
+msgid "page"
+msgstr "страница"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:263
+#, php-format
+msgid "or to a %1$sblog internal search%2$s for this value"
+msgstr ""
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:265
+msgid "or to this URL:"
+msgstr "или к этому URL:"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href.php:267
+msgid "link description (title)"
+msgstr "описание ссылки (title)"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_advice.php:20
+#, fuzzy, php-format
+msgid "Please, choose the list type \"%1$s\" to able to set the link reference for the custom field name values."
+msgstr "Вы должны сохранить настройки виджета, перед тем, как устанавливать значенияновым пользовательским полям."
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_advice.php:20
+msgid "a list of all values with manually set links"
+msgstr "лист всех значений  с ссылками, установленными вручную"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_individual_href_advice.php:24
+#, fuzzy
+msgid "Please, save the custom field names first."
+msgstr "Пожалуйста, определите имя пользовательского поля!"
+
+#: D:\xampp\htdocs\wp32en\wp-content\plugins\custom-field-list-widget/widget_custom_field_list_long_selectbox.php:34
+msgid "Close"
+msgstr ""
+
+#~ msgid ""
+#~ "You need to save the widget settings before you can set the links for the "
+#~ "values of the new custom field name."
+#~ msgstr ""
+#~ "Вы должны сохранить настройки виджета, перед тем, как устанавливать "
+#~ "значенияновым пользовательским полям."
+
+#~ msgid "in"
+#~ msgstr "в"
+
+#~ msgid "or"
+#~ msgstr "oder"
+
+#~ msgid "This option will probably not work on this server OS (Windows)."
+#~ msgstr ""
+#~ "Diese Option funktioniert wahrscheinlich nicht mit diesem Server OS "
+#~ "(Windows)."
+
+#~ msgid "Guests"
+#~ msgstr "G&auml;ste"

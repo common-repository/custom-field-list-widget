@@ -1,0 +1,186 @@
+/*  styles for the widgets page */
+.customfieldlist_help, .customfieldlist_explanation, .customfieldlist_more_settings_advice {
+	color:#999;
+}
+.customfieldlist_help  {
+	text-decoration:none;
+}
+.customfieldlist_explanation {
+	display:none;
+}
+.customfieldlist_help:hover, .customfieldlist_help:focus {
+	cursor:pointer;
+	text-decoration:underline;
+}
+.customfieldlist_label {
+	font-size:small;
+}
+.customfieldlist_acronym {
+	cursor: help;
+	border-bottom:1px dashed #333;
+}
+.customfieldlist_acronym:hover {
+	border-bottom:1px solid #333;
+}
+.customfieldlist_advice {
+	clear:left;
+	text-align:left;
+	background-color: #ffffe0;
+	border: 1px solid #e6db55;
+	-moz-border-radius:3px;
+	padding-top: 0pt;
+	padding-right: 0.6em;
+	padding-bottom: 0pt;
+	padding-left: 0.6em;
+	margin-top: 5px;
+	margin-right: 0pt;
+	margin-bottom: 10px;
+	margin-left: 0pt;
+}
+.customfieldlist_advice_chkb, .customfieldlist_error_chkb {
+	padding: 1em 0.6em 1em 0.6em;
+	margin-top: 1em;
+	margin-right: 0pt;
+	margin-bottom: 2px;
+	margin-left: 0pt;
+}
+.customfieldlist_advice, .customfieldlist_advice_chkb {
+	background-color: #ffffe0;
+	border: 1px solid #e6db55;
+	-moz-border-radius:3px;
+}
+.customfieldlist_error {
+	float:left;
+	text-align:left;
+	padding-top: 0.4em;
+	padding-right: 0.6em;
+	padding-bottom: 0.4em;
+	padding-left: 0.6em;
+	margin-top: 5px;
+	margin-right: 0pt;
+	margin-bottom: 10px;
+	margin-left: 0pt;
+}
+.customfieldlist_error, .customfieldlist_error_chkb {
+	background-color: #ffebe8;
+	border: 1px solid #cc0000;
+	-moz-border-radius:3px;
+}
+#customfieldlist_advice_cfn_usage {
+	height:20em;
+	overflow:auto;
+}
+.customfieldlist_section {
+	text-align:right; 
+	margin-bottom:2em;
+}
+.customfieldlist_section h5 {
+	font-size:1em;
+	text-align:left;
+}
+
+.customfieldlist_option_with_top_space {
+	margin-top:1em;
+}
+
+.customfieldlist_fieldset_h3  {
+	margin-bottom: 1em;
+}
+fieldset.customfieldlist_fieldset_h3 legend, fieldset.customfieldlist_fieldset_h2 fieldset.customfieldlist_fieldset_h3 legend{
+	text-align: left;
+	padding: 0em 0.5em 0em 3em;
+}
+.customfieldlist_fieldset_h2  {
+	border:1px solid #dddddd;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+fieldset.customfieldlist_fieldset_h2 legend {
+	text-align: left;
+	padding: 0em 0.5em 0em 0.5em;
+}
+
+.customfieldlist_section div input, .customfieldlist_section div select {
+	vertical-align:middle;
+}
+.customfieldlist_more_settings_advice {
+	font-size:1em;
+}
+.customfieldlist_customfieldnames_box {
+	width:100%;
+	text-align:left;
+	float:left;
+	clear:right;
+	border:1px solid #dfdfdf;
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	-webkit-border-top-left-radius:8px;
+	-khtml-border-top-right-radius:8px;
+	-khtml-border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	margin-bottom:1em;
+}
+.customfieldlist_column_index {
+	width:3%;
+	padding-left:1%;
+	float:left;
+}
+.customfieldlist_column_textbox {
+	width:68%;
+	float:left;
+	vertical-align:middle;
+}
+.customfieldlist_column_textbox input {
+	width:96%;
+}
+.customfieldlist_column_textbox_head {
+	padding-left:1%;
+	width:66%;
+}
+.customfieldlist_column_radiobutton, .customfieldlist_column_checkbox {
+	width:14%;
+	float:left;
+	line-height:1.3em;
+	padding: 0.5em 0pt 0.5em 0pt;
+}
+.customfieldlist_column_index, .customfieldlist_column_radiobutton, .customfieldlist_column_checkbox {
+	height:100%;
+	vertical-align:middle;
+}
+.customfieldlist_head_row {
+	color: #333333;
+	font-weight:bold;
+	text-shadow: 0pt 1px 0pt rgba(255, 255, 255, 0.8);
+	-moz-border-radius-topleft:8px;
+	-moz-border-radius-topright:8px;
+	-webkit-border-top-right-radius:8px;
+	-webkit-border-top-left-radius:8px;
+	-khtml-border-top-right-radius:8px;
+	-khtml-border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	background-color: #dfdfdf;
+	background-image: url(../../../wp-admin/images/gray-grad.png);
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+	background-position: left top;
+}
+.customfieldlist_row {
+	float:left;
+	display:block;
+	width:100%;
+	line-height:2.5em;
+	height:100%;
+}
+.alternate {
+	background-color: #eee;
+}
+.customfieldlist_radiobox {
+	background-color: #fee;
+	display:block;
+}
+.customfieldlist_opt_use_chr_limit {
+	width:4em;
+}

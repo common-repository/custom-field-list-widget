@@ -1,0 +1,54 @@
+.customfieldtitle:hover {
+	text-decoration:underline;
+}
+.customfieldtitle, .customfieldplus {
+	cursor:pointer;
+}
+.customfieldlistpages {
+	display:none;
+}
+.customfieldlist_selectedpart {
+	font-weight:bold;
+}
+.customfieldlist_selectbox {
+	width:100%;
+}
+#customfieldlist_main_menu_2 {
+	left:20px;
+}
+.customfieldoptgroup  {
+	color:#000;
+	font-style:normal;
+}
+.customfieldoptgroup option {
+	color:#000;
+}
+
+
+/* customfieldlist_opt_link is the class of the clickable elements in the drop down menus. 
+If you like to have these elements to look like links then remove the comment characters before 
+(slash + multiplication sign) and after (multiplication sign + slash) the definitions */
+/*
+.customfieldlist_opt_link {
+	color: #0066cc;
+	text-decoration:none;
+}
+*/
+
+/* The following lines are an example for the default theme of WP 2.x - 2.9.x: */
+/*
+.customfieldlist_opt_link:hover, 
+.customfieldlist_opt_link:active {
+	color: #114477;
+	text-decoration:underline;
+}
+*/
+
+/* For the default theme of WP 3.x use this: */
+/*
+.customfieldlist_opt_link:hover, 
+.customfieldlist_opt_link:active {
+	color: #ff4b33;
+	text-decoration:underline;
+}
+*/
